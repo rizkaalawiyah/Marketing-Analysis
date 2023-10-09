@@ -30,6 +30,6 @@ Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan dist
 27. Complain: 1 jika pelanggan mengeluh dalam 2 tahun terakhir. O sebaliknya
 
 # 🧐 Analysis 
-![image](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8de69f09-7e40-410f-9ecf-c556cdc2a9ff)
+
 
 
