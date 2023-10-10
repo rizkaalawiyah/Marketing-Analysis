@@ -65,8 +65,9 @@ Setelah data bersih, selanjutnya akan menggali insights dari semua kolom yang ad
 
   
 ![1  Customer_Age (Bar Chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1b4efbb6-3b88-45ab-a062-86a4a6f821e0)  
-Rata-rata umur customer yaitu berada pada rentang umur 40-an,
-![2  customer_age, response (kde)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1bdbb0f5-9271-4bac-a0f1-785414c55aa1)
+Rata-rata umur customer yaitu berada pada rentang umur 40-an
+![2  customer_age, response (kde)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1bdbb0f5-9271-4bac-a0f1-785414c55aa1)  
+Dari bar chart di atas diketahui bahwa yang menerima tawaran campaign juga rata-rata di umur 40-an, dapat dilihat kde dari tawaran campaign yang diterima dan tidak diterima sama.  
 ![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)
 ![4  Education, income, response (boxplot)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/79cdf8e0-fb0c-4eeb-8f4a-67c7cf766f38)
 ![5  Marital status, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/516dda75-52f7-4453-9af3-172d6758c82a)
