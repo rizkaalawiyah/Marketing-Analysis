@@ -65,10 +65,11 @@ Setelah data bersih, selanjutnya akan menggali insights dari semua kolom yang ad
 
   
 ![1  Customer_Age (Bar Chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1b4efbb6-3b88-45ab-a062-86a4a6f821e0)  
-Rata-rata umur customer yaitu berada pada rentang umur 40-an
+Rata-rata umur customer yaitu berada pada rentang umur 40-an.  
 ![2  customer_age, response (kde)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1bdbb0f5-9271-4bac-a0f1-785414c55aa1)  
-Dari bar chart di atas diketahui bahwa yang menerima tawaran campaign juga rata-rata di umur 40-an, dapat dilihat kde dari tawaran campaign yang diterima dan tidak diterima sama.  
-![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)
+Dari bar chart di atas diketahui bahwa yang menerima tawaran campaign juga rata-rata di umur 40-an, dapat dilihat distribusi dari tawaran campaign yang diterima dan tidak diterima sama.  
+![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)  
+Dari bar chart hubungan antara education dan response dapat diketahui bahwa customer terbanyak merupakan lulusan graduation, namun untuk yang menerima tawaran campaign hanya 13% dari total keseluruhan lulusan graduation. Customer lulusan PhD cenderung menerima tawaran campaign, 22% dari total keseluruhan lulusan PhD. Sedangkan lulusan basic paling sedikit menerima tawaran campaign.  
 ![4  Education, income, response (boxplot)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/79cdf8e0-fb0c-4eeb-8f4a-67c7cf766f38)
 ![5  Marital status, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/516dda75-52f7-4453-9af3-172d6758c82a)
 ![6  num dependants, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/500e5390-a50d-46f7-9a2f-19a8aad11d9c)
@@ -85,6 +86,6 @@ Dari bar chart di atas diketahui bahwa yang menerima tawaran campaign juga rata-
 :black_medium_square: Semakin lama customer sudah terdaftar dalam sistem, semakin besar kemungkinan customer akan menerima penawaran campaign.  
 :black_medium_square: Jika customer sudah menghabiskan sekitar 1000-2000 dollar, maka customer ini cenderung menerima penawaran campaign.  
 :black_medium_square: Campaign 1, 3 dan 5 merupakan Campaign yang paling berkolerasi.  
-:black_medium_square: Customer terbanyak terbanyak berasal Spanyol, namun hanya 16% dari total customer yang menerima penawaran campaign. Sedangkan Mexico merupakan negara dengan customer paling sedikit, namun paling banyak menerima tawaran campaign.
+:black_medium_square: Customer terbanyak berasal dari Spanyol, namun hanya 16% dari total customer yang menerima penawaran campaign. Sedangkan Mexico merupakan negara dengan customer paling sedikit, namun paling banyak menerima tawaran campaign.
 
 
