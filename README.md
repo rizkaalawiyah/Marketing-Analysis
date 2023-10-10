@@ -3,6 +3,7 @@
 Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan distribusi makanan yang diperoleh dari website kaggle.com. Dataset berisikan consumer profile, product preference, dan campaign successes/failures. Tujuan dari eksplorasi data analisis pada dataset ini adalah untuk mendapatkan insight-insight yang bermanfaat dan menarik untuk tim marketing.
 
 # 📊 Data Description
+Dataset ini memiliki 28 feature dan 2240 data, di bawah ini merupakan penjelasan dari setiap feature:
 1. ID: Pengenal Unik Pelanggan
 2. Year Birth: Tahun Lahir Pelanggan
 3. Education: ingkat pendidikan pelanggan
@@ -45,8 +46,9 @@ tipe data feature income diubah dari int menjadi float, untuk tipe data dt_custo
 selanjutnya akan kita lihat apakah ada duplikasi data atau tidak, dan ternyata pada dataset ini tidak ada duplikasi data.  
 
 ![3_dupicate](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ed6dadff-7763-4542-ae50-a321fa3a4288)  
-![4_missing values](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/b9d13674-cc66-410f-8c5e-e0df07c3c050)  
+![4_missing values](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/2a5d1839-6695-45b4-a43c-bc0d017110cf)
 terdapat 24 missing values pada feature income, missing values tersebut akan diisi dengan nilai median kolom income  
+  
 ![5_lihat distribusi income](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/f8a526f7-1877-4886-8415-f0bee60aed2c)
 ![5_lihat distribusi](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/c9252581-9579-4255-a37d-d556160be5b3)
 ![5_lihat outliers](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8daa1b18-47d0-4f8c-b35d-8c54b0fc0e98)  
