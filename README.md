@@ -1,4 +1,4 @@
-# Marketing-Analysis
+# 🔮 Background dan Project Goals
 
 Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan distribusi makanan yang diperoleh dari website kaggle.com. Dataset berisikan consumer profile, product preference, dan campaign successes/failures. Tujuan dari eksplorasi data analisis pada dataset ini adalah untuk mendapatkan insight-insight yang bermanfaat dan menarik untuk tim marketing.
 
@@ -30,4 +30,19 @@ Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan dist
 27. Complain: 1 jika pelanggan mengeluh dalam 2 tahun terakhir. O sebaliknya
 
 # 🧐 Analysis 
+![1  Customer_Age (Bar Chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1b4efbb6-3b88-45ab-a062-86a4a6f821e0) ![2  customer_age, response (kde)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1bdbb0f5-9271-4bac-a0f1-785414c55aa1)
+![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)
+![4  Education, income, response (boxplot)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/79cdf8e0-fb0c-4eeb-8f4a-67c7cf766f38)
+![5  Marital status, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/516dda75-52f7-4453-9af3-172d6758c82a)
+![6  num dependants, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/500e5390-a50d-46f7-9a2f-19a8aad11d9c)
+![7  Dt customer month, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/a869deaa-3987-4d1f-beb2-5ac73fe214ec)
+![8  Dt customer year, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/099cc344-78a3-4ec7-ae35-3a35f41cf3cd)
+![9  recency, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/cabe6934-217d-45b8-9e60-c1060d65cad4)
+![10  total amnt spent, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/0509ef5a-5ccb-4ff1-81bf-8ed3f0a73168)
+![11  total purchases, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1d4e353b-1afb-4510-85d6-b6dfb88721ba)
+![12  country, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/6f7ffb29-7809-454e-80d2-8c1b8d13ee9b)
+
+
+
+
 
