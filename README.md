@@ -55,7 +55,7 @@ Dapat dilihat dari distribusi feature income di atas bahwa terdapat pencilan yan
 
   
 ![5_lihat distribusi](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/c9252581-9579-4255-a37d-d556160be5b3)  
-![5_lihat outliers](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8daa1b18-47d0-4f8c-b35d-8c54b0fc0e98)  
+![5_lihat outliers](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8daa1b18-47d0-4f8c-b35d-8c54b0fc0e98)   
 
 Distribusi untuk semua feature numerical rata-rata terlihat baik, namun feature year_birth memiliki outliers yang tidak masuk akal dan tidak ada yang kurang dari 0.  
 
