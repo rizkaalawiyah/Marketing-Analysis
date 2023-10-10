@@ -80,5 +80,10 @@ Rata-rata umur customer yaitu berada pada rentang umur 40-an,
 
 
 # 📃 Conclusion
+:black_medium_square: Customer yang belum lama membeli, cenderung menerima penawaran campaign terbaru.  
+:black_medium_square: Semakin lama customer sudah terdaftar dalam sistem, semakin besar kemungkinan customer akan menerima penawaran campaign.  
+:black_medium_square: Jika customer sudah menghabiskan sekitar 1000-2000 dollar, maka customer ini cenderung menerima penawaran campaign.  
+:black_medium_square: Campaign 1, 3 dan 5 merupakan Campaign yang paling berkolerasi.  
+:black_medium_square: Customer terbanyak terbanyak berasal Spanyol, namun hanya 16% dari total customer yang menerima penawaran campaign. Sedangkan Mexico merupakan negara dengan customer paling sedikit, namun paling banyak menerima tawaran campaign.
 
 
