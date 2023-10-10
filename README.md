@@ -34,7 +34,7 @@ Dataset ini memiliki 28 feature dan 2240 data, di bawah ini merupakan penjelasan
 28. Complain: 1 jika pelanggan mengeluh dalam 2 tahun terakhir. O sebaliknya
 
 # 🧐 Analysis 
-Pertama-tama yang dilakukan adalah melakukan data quality check. Apakah ada feature yang memiliki tipe data yang tidak sesuai, data duplicate, dan missing values.  
+Pertama-tama yang dilakukan adalah melakukan data quality check. Beberapa pertanyaan yang harus di jawab pada tahap ini yaitu apakah ada feature yang memiliki tipe data yang tidak sesuai, apakah ada data duplicate, apakah ada missing values, dan apakah ada outliers yang tidak masuk akal. Pertanyaan-pertanyaan tersebut harus terjawab agar data bersih.  
 ![1_ tipe data yang tidak sesuai](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ffe7b78b-64b9-4940-9318-1180fdc8ce8e)  
 
 ternyata pada dataset ini ada feature yang memiliki tipe data tidak sesuai yaitu dt_customer dan income. Untuk feature income memiliki spasi sebelum namanya dan memiliki dollar sign yang akan mempersulit analisis kedepannya untuk itu selain mengubah tipe data nama kolomnya juga diubah  
@@ -46,18 +46,23 @@ tipe data feature income diubah dari int menjadi float, untuk tipe data dt_custo
 selanjutnya akan kita lihat apakah ada duplikasi data atau tidak, dan ternyata pada dataset ini tidak ada duplikasi data.  
 
 ![3_dupicate](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ed6dadff-7763-4542-ae50-a321fa3a4288)  
-![4_missing values](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/2a5d1839-6695-45b4-a43c-bc0d017110cf)
+![4_missing values](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/2a5d1839-6695-45b4-a43c-bc0d017110cf)  
 terdapat 24 missing values pada feature income, missing values tersebut akan diisi dengan nilai median kolom income  
   
 ![5_lihat distribusi income](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/f8a526f7-1877-4886-8415-f0bee60aed2c)
-![5_lihat distribusi](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/c9252581-9579-4255-a37d-d556160be5b3)
+![5_](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/dd190c96-ea42-4be8-b1af-638757551952)  
+Dapat dilihat dari distribusi feature income di atas bahwa terdapat pencilan yang sangat jauh, untuk itu nilai median digunakan untuk mengisi missing values pada feature income.  
+
+  
+![5_lihat distribusi](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/c9252581-9579-4255-a37d-d556160be5b3)  
 ![5_lihat outliers](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8daa1b18-47d0-4f8c-b35d-8c54b0fc0e98)  
 
-![5_](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/dd190c96-ea42-4be8-b1af-638757551952)
+Distribusi untuk semua feature numerical rata-rata terlihat baik, namun feature year_birth memiliki outliers yang tidak masuk akal dan tidak ada yang kurang dari 0.  
 
 
 
 
+   
 ![1  Customer_Age (Bar Chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1b4efbb6-3b88-45ab-a062-86a4a6f821e0) 
 ![2  customer_age, response (kde)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1bdbb0f5-9271-4bac-a0f1-785414c55aa1)
 ![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)
