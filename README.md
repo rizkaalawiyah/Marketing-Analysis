@@ -34,15 +34,21 @@ Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan dist
 
 # 🧐 Analysis 
 Pertama-tama yang dilakukan adalah melakukan data quality check. Apakah ada feature yang memiliki tipe data yang tidak sesuai, data duplicate, dan missing values.
-![1_ tipe data yang tidak sesuai](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ffe7b78b-64b9-4940-9318-1180fdc8ce8e)
-ternyata pada dataset ini ada feature yang memiliki tipe data tidak sesuai yaitu dt_customer dan income. Untuk feature income memiliki spasi sebelum namanya dan memiliki dollar sign yang akan mempersulit analisis kedepannya untuk itu selain mengubah tipe data nama kolomnya juga diubah
-![2_mengubah income dan dt_customer](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/a99b44ce-bde9-4ae7-aef9-e0748871c6dc)
-tipe data feature income diubah dari int menjadi float, untuk tipe data dt_customer diubah dari object menjadi datetime.
 
+![1_ tipe data yang tidak sesuai](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ffe7b78b-64b9-4940-9318-1180fdc8ce8e)
+
+ternyata pada dataset ini ada feature yang memiliki tipe data tidak sesuai yaitu dt_customer dan income. Untuk feature income memiliki spasi sebelum namanya dan memiliki dollar sign yang akan mempersulit analisis kedepannya untuk itu selain mengubah tipe data nama kolomnya juga diubah
+
+![2_mengubah income dan dt_customer](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/a99b44ce-bde9-4ae7-aef9-e0748871c6dc)
+
+
+tipe data feature income diubah dari int menjadi float, untuk tipe data dt_customer diubah dari object menjadi datetime.
 selanjutnya akan kita lihat apakah ada duplikasi data atau tidak, dan ternyata pada dataset ini tidak ada duplikasi data.
+
 ![3_dupicate](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ed6dadff-7763-4542-ae50-a321fa3a4288)
 ![4_missing values](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/b9d13674-cc66-410f-8c5e-e0df07c3c050)
 terdapat 24 missing values pada feature income, missing values tersebut akan diisi dengan nilai median kolom income
+
 ![5_lihat outliers](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8daa1b18-47d0-4f8c-b35d-8c54b0fc0e98)
 
 ![5_](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/dd190c96-ea42-4be8-b1af-638757551952)
