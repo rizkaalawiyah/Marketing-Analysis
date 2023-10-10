@@ -33,8 +33,8 @@ Dataset ini memiliki 28 feature dan 2240 data, di bawah ini merupakan penjelasan
 27. Response: 1 jika pelanggan menerima penawaran di kampanye terakhir, O sebaliknya (Variabel target)
 28. Complain: 1 jika pelanggan mengeluh dalam 2 tahun terakhir. O sebaliknya
 
-# 🧐 Analysis 
-Pertama-tama yang dilakukan adalah melakukan data quality check. Beberapa pertanyaan yang harus di jawab pada tahap ini yaitu apakah ada feature yang memiliki tipe data yang tidak sesuai, apakah ada data duplicate, apakah ada missing values, dan apakah ada outliers yang tidak masuk akal. Pertanyaan-pertanyaan tersebut harus terjawab agar data bersih.  
+# 🧐 Analysis  
+Pertama-tama yang dilakukan adalah melakukan data quality check. Beberapa pertanyaan yang harus di jawab pada tahap ini yaitu apakah ada feature yang memiliki tipe data yang tidak sesuai, apakah ada data duplicate, apakah ada missing values, dan apakah ada outliers yang tidak masuk akal. Pertanyaan-pertanyaan tersebut harus terjawab agar data bersih.    
 ![1_ tipe data yang tidak sesuai](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/ffe7b78b-64b9-4940-9318-1180fdc8ce8e)  
 
 ternyata pada dataset ini ada feature yang memiliki tipe data tidak sesuai yaitu dt_customer dan income. Untuk feature income memiliki spasi sebelum namanya dan memiliki dollar sign yang akan mempersulit analisis kedepannya untuk itu selain mengubah tipe data nama kolomnya juga diubah  
@@ -57,13 +57,15 @@ Dapat dilihat dari distribusi feature income di atas bahwa terdapat pencilan yan
 ![5_lihat distribusi](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/c9252581-9579-4255-a37d-d556160be5b3)  
 ![5_lihat outliers](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/8daa1b18-47d0-4f8c-b35d-8c54b0fc0e98)   
 
-Distribusi untuk semua feature numerical rata-rata terlihat baik, namun feature year_birth memiliki outliers yang tidak masuk akal dan tidak ada yang kurang dari 0.  
+Distribusi untuk semua feature numerical rata-rata terlihat baik dan tidak ada yang kurang dari 0, namun feature year_birth memiliki outliers yang tidak masuk akal untuk itu data akan di remove.  
 
 
+    
+Setelah data bersih, selanjutnya akan menggali insights dari semua kolom yang ada dan melihat apakah ada sebuah pattern dengan variable target (Response).  
 
-
-   
-![1  Customer_Age (Bar Chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1b4efbb6-3b88-45ab-a062-86a4a6f821e0) 
+  
+![1  Customer_Age (Bar Chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1b4efbb6-3b88-45ab-a062-86a4a6f821e0)  
+Rata-rata umur customer yaitu berada pada rentang umur 40-an,
 ![2  customer_age, response (kde)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/1bdbb0f5-9271-4bac-a0f1-785414c55aa1)
 ![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)
 ![4  Education, income, response (boxplot)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/79cdf8e0-fb0c-4eeb-8f4a-67c7cf766f38)
