@@ -70,7 +70,8 @@ Rata-rata umur customer yaitu berada pada rentang umur 40-an.
 Dari bar chart di atas diketahui bahwa yang menerima tawaran campaign juga rata-rata di umur 40-an, dapat dilihat distribusi dari tawaran campaign yang diterima dan tidak diterima sama.  
 ![3  Education, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/60d34b48-4211-42a2-a232-1c1515e6eda6)  
 Dari bar chart hubungan antara education dan response dapat diketahui bahwa customer terbanyak merupakan lulusan graduation, namun untuk yang menerima tawaran campaign hanya 13% dari total keseluruhan lulusan graduation. Customer lulusan PhD cenderung menerima tawaran campaign, 22% dari total keseluruhan lulusan PhD. Sedangkan lulusan basic paling sedikit menerima tawaran campaign.  
-![4  Education, income, response (boxplot)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/79cdf8e0-fb0c-4eeb-8f4a-67c7cf766f38)
+![4  Education, income, response (boxplot)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/79cdf8e0-fb0c-4eeb-8f4a-67c7cf766f38)  
+Dari boxplot korelasi antara education, income dan response di atas dapat dilihat bahwa semakin tinggi pendidikan maka income semakin tinggi. Graduation, PhD, dan Master memiliki rata-rata income yang sama. Dapat diketahui bahwa rata-rata income dari customer yang menerima tawaran campaign selalu lebih tinggi dibandingkan dengan yang tidak menerima tawaran campaign.  
 ![5  Marital status, response (bar chart)](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/516dda75-52f7-4453-9af3-172d6758c82a)
 ![6  num dependants, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/500e5390-a50d-46f7-9a2f-19a8aad11d9c)
 ![7  Dt customer month, response](https://github.com/rizkaalawiyah/Marketing-Analysis/assets/43191119/a869deaa-3987-4d1f-beb2-5ac73fe214ec)
