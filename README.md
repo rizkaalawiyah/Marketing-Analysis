@@ -99,7 +99,7 @@ Customer terbanyak berasal dari Spanyol, dan menerima penawaran campaign paling 
 # 📃 Conclusion
 :black_medium_square: Customer yang belum lama membeli, cenderung menerima penawaran campaign terbaru.  
 :black_medium_square: Semakin lama customer sudah terdaftar dalam sistem, semakin besar kemungkinan customer akan menerima penawaran campaign.  
-:black_medium_square: Jika customer sudah menghabiskan sekitar 1000-2000 dollar, maka customer ini cenderung menerima penawaran campaign. 
+:black_medium_square: Jika customer sudah menghabiskan sekitar 1000-2000 dollar, maka customer ini cenderung menerima penawaran campaign.  
 :black_medium_square: Customer yang tidak memiliki partner cenderung menerima penawaran campaign.  
 :black_medium_square: Campaign 1, 3 dan 5 merupakan Campaign yang paling berkolerasi.  
 :black_medium_square: Customer yang tidak memiliki partner dan tanggungan besar kemungkinan menerima tawaran campaign.  
