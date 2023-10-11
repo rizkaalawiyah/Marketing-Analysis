@@ -1,6 +1,6 @@
 # 🔮 Background dan Project Goals
 
-Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan distribusi makanan yang diperoleh dari website kaggle.com. Dataset berisikan consumer profile, product preference, dan campaign successes/failures. Tujuan dari eksplorasi data analisis pada dataset ini adalah untuk mendapatkan insight-insight yang bermanfaat dan menarik untuk tim marketing.
+Projek Eksplorasi Data Analisis (EDA) pada sebuah data marketing perusahaan distribusi makanan yang diperoleh dari website kaggle.com. Dataset berisikan consumer profile, product preference, dan campaign successes/failures. Tujuan dari eksplorasi data analisis pada dataset ini adalah untuk mendapatkan insights yang bermanfaat bagi tim marketing agar terjadi peningkatan penerimanaan penawaran campaign.  
 
 # 📊 Data Description
 Dataset ini memiliki 28 feature dan 2240 data, di bawah ini merupakan penjelasan dari setiap feature:
